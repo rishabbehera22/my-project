@@ -5,6 +5,7 @@ import Home from "./Home"
 import Getthesolution from "./Getthesolution";
 import Counting from "./Counting";
 import Signinpage from "./Signinpage";
+import Tvdamages from "./Tvdamages.jsx";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="solution" element={<Solution />} />
         <Route path="projectp" element={<Projectpage />} />
+        <Route path="tvdamage" element={<Tvdm />} />
       </Routes>
     </div>
   );
@@ -53,4 +55,12 @@ function Projectpage() {
 
   )
 }
+function Tvdm() {
+  return (
+    <div>
+    <Tvdamages></Tvdamages>
+    </div>
+  )
+}
+
 export default App;

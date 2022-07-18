@@ -52,8 +52,8 @@ function Heading() {
             </li>
           </ul>
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a
-              href="/"
+            <Link
+              to="/tvdamage"
               className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             >
               <svg
@@ -65,7 +65,7 @@ function Heading() {
               >
                 <use xlinkHref="#bootstrap" />
               </svg>
-            </a>
+            </Link>
             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
               <li className="">
                 <button type="button" className="pill">
@@ -82,8 +82,8 @@ function Heading() {
                 </button>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/tvdamage"
                   className="nav-link px-2 text-secondary  text-white"
                 >
                   <i
@@ -95,7 +95,7 @@ function Heading() {
                       REQUEST <br /> DEMO
                     </p1>
                   </i>
-                </a>
+                </Link>
               </li>
               <li>
                 <a
