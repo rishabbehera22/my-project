@@ -2,7 +2,7 @@ import React from "react";
 
 function Counting() {
   let valuedisplay = document.querySelectorAll(".num");
-let interval = 4000;
+let interval = 3000;
 
 valuedisplay.forEach((valuedisplay) => {
     let startvalue = 0;
