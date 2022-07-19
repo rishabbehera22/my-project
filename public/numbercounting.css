@@ -5,19 +5,20 @@
     font-family: "Poppins",sans-serif;
 }
 .wrapper {
-    border: 1px solid white;
+    
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -505);
     top: 50%;
     left: 50%;
     display: flex;
+    gap: 2px;
     
 }
 .cuteness {
     width: 28vmin;
     height: 28vmin;
-    border: 1px solid orange;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -48,4 +49,26 @@ span.text {
     font-weight: 400;
     line-height: 0;
 }
-
+@media  screen and (max-width: 1024px) {
+    .wrapper{
+        width: 85vw;
+    }
+    .cuteness{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .cuteness {
+        width: calc(50% - 40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+    
+}

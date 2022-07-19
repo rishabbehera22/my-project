@@ -8,7 +8,7 @@ function Box(props) {
           className="bd-placeholder-img card-img-top"
           width="100%"
           height={225}
-          src="Best-Thermal-Leak-Detection-Kits-1.jpg"
+          src={props.imges}
           role="img"
           aria-label="Placeholder: Thumbnail"
           preserveaspectratio="xMidYMid slice"
