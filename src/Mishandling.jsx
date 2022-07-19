@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "./Heading";
 import Text from "./Text";
-function Tvdamages(){
+function Mishandling(){
     return(
         <div>
         <Heading></Heading>
@@ -30,6 +30,15 @@ function Tvdamages(){
   <br />
   <Text></Text>
   <br />
+  <form className="w3-container">
+  <label>Please share what exactly happen</label>
+  <input
+    className="w3-input w3-animate-input"
+    type="text"
+    style={{ width: 135 }}
+  />
+  <br />
+</form>
   <input type="submit" />
           </div>
         </div>
@@ -40,4 +49,4 @@ function Tvdamages(){
 
 }
 
-export default Tvdamages;
+export default Mishandling;

@@ -6,6 +6,9 @@ import Getthesolution from "./Getthesolution";
 import Counting from "./Counting";
 import Signinpage from "./Signinpage";
 import Tvdamages from "./Tvdamages.jsx";
+import Claim from "./Claim";
+import Mishandling from "./Mishandling";
+import Signdanger from "./Signdanger";
 function App() {
   return (
     <div>
@@ -15,6 +18,11 @@ function App() {
         <Route path="solution" element={<Solution />} />
         <Route path="projectp" element={<Projectpage />} />
         <Route path="tvdamage" element={<Tvdm />} />
+        <Route path="claimed" element={<Claims />} />
+        <Route path="misshandeld" element={<Mishandlinging />} />
+        <Route path="misshandeld" element={<Mishandlinging />} />
+        <Route path="danger" element={<Dangering />} />
+
       </Routes>
     </div>
   );
@@ -62,5 +70,28 @@ function Tvdm() {
     </div>
   )
 }
-
+function Claims() {
+  return (
+    <div>
+    <Claim></Claim>
+    </div>
+  )
+}
+function Mishandlinging() {
+  return(
+    <div>
+      <Mishandling></Mishandling>
+    </div>
+  )
+}
+function Dangering(){
+  return(
+    <div>
+    <Heading></Heading>
+    <br />
+    
+      <Signdanger></Signdanger>
+    </div>
+  )
+}
 export default App;

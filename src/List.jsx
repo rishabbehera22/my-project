@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function List() {
   return (
     <div
@@ -8,23 +8,23 @@ function List() {
     >
       <ul className="nav nav-pills flex-column mb-auto">
         <li className="nav-item">
-          <a href="#" className="nav-link navbar-brand" aria-current="page">
+          <Link to="/tvdamage"className="nav-link navbar-brand" aria-current="page">
             <div className="align-items-center">
               <i className="fa-solid fa-box mx-auto bi d-block mx-auto mb-1 px-4  text-white " />
               <p className="text-white">Box damage</p>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <Link to="/tvdamage" className="nav-link" aria-current="page">
             <div className="align-items-center">
               <i className="fa-solid fa-tv mx-auto bi d-block mx-auto mb-1 px-4  text-white " />
               <p className="text-white">Box damage</p>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <Link to="/claimed" className="nav-link" aria-current="page">
             <div className="align-items-center">
               <i className="fa-solid fa-screwdriver mx-auto bi d-block mx-auto mb-1 px-4  text-white " />
               <p className="text-white">
@@ -33,10 +33,10 @@ function List() {
                 claim
               </p>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <Link to="/misshandeld" className="nav-link" aria-current="page">
             <div className="align-items-center">
               <i className="fa-solid fa-warehouse mx-auto bi d-block mx-auto mb-1 px-4  text-white align-content-center " />
               <p className="text-white ">
@@ -45,10 +45,10 @@ function List() {
                 mishandling
               </p>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <Link to="/misshandeld" className="nav-link" aria-current="page">
             <div className="align-items-center">
               <i className="fa-solid fa-microchip mx-auto bi d-block mx-auto mb-1 px-4  text-white align-content-center " />
               <p className="text-white ">
@@ -57,7 +57,7 @@ function List() {
                 mishandling
               </p>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

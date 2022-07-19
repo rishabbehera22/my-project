@@ -66,9 +66,12 @@ function Heading() {
                 <use xlinkHref="#bootstrap" />
               </svg>
             </Link>
+            
             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            
               <li className="">
-                <button type="button" className="pill">
+              <Link to="/danger">
+              <button type="button" className="pill">
                   <i
                     className="fa-solid fa-display bi d-block mx-auto mb-1"
                     width={24}
@@ -80,10 +83,12 @@ function Heading() {
                     </p1>
                   </i>
                 </button>
+              </Link>
+           
               </li>
               <li>
                 <Link
-                  to="/tvdamage"
+                  to="/danger"
                   className="nav-link px-2 text-secondary  text-white"
                 >
                   <i
@@ -98,8 +103,8 @@ function Heading() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/danger"
                   className="nav-link px-2 text-secondary text-center text-white"
                 >
                   <i
@@ -108,12 +113,12 @@ function Heading() {
                     height={50}
                   />
                   Settings
-                </a>
+                </Link>
               </li>
               <li></li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/projectp"
                   className="nav-link px-2 text-secondary text-center text-white"
                 >
                   <i
@@ -122,7 +127,7 @@ function Heading() {
                     height={50}
                   />
                   Sign in
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
